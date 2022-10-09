@@ -7,15 +7,15 @@ window.document.onkeydown = function (evt) {
   document.getElementById('debug').value =
     `{` +
     '\n' +
-    `  shiftKey: ${evt.shiftKey},` +
+    `  "shiftKey" : ${evt.shiftKey},` +
     '\n' +
-    `  ctrlKey: ${evt.ctrlKey},` +
+    `  "ctrlKey" : ${evt.ctrlKey},` +
     '\n' +
-    `  altKey: ${evt.altKey},` +
+    `  "altKey" : ${evt.altKey},` +
     '\n' +
-    `  metakey: ${evt.metaKey},` +
+    `  "metakey" : ${evt.metaKey},` +
     '\n' +
-    `  code: ${evt.code}` +
+    `  "code" : "${evt.code}"` +
     '\n' +
     `}`;
 };
