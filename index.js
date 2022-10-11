@@ -12,9 +12,7 @@ window.document.onkeydown = function (evt) {
     `  "ctrlKey" : ${evt.ctrlKey},` +
     '\n' +
     `  "altKey" : ${evt.altKey},` +
-    '\n' +
-    `  "metakey" : ${evt.metaKey},` +
-    '\n' +
+    '\n' +  
     `  "code" : "${evt.code}"` +
     '\n' +
     `}`;
